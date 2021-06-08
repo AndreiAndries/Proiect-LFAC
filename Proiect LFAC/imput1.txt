@@ -1,0 +1,65 @@
+start
+variabila int a<-10;
+constanta float b <-10.02;
+int a1;
+int a2;
+int b1;
+char cr; char cr1[1000];
+bool ok1;
+int vect[100];
+float flt[100];
+float c1; float c2;
+variabila bool ok
+;
+char v[100] <- "altceva";
+string v1[100] <- "ceva";
+structura str1 {
+    int x;
+    int z;
+    constanta float y<-0.001;
+};
+enum x22 { 12, 12.2 , 32.0 , "ceva" }
+;
+clasa clasa_noua {
+    int a;
+    char b<-"salut";
+    string sir <-"ceva";
+    float array[555];
+    functie int new_func ( int a[10] , char b[10], float c){
+        return c;
+    }
+}
+functie char functie_globala(int vg[100], float vh, char ip)
+{
+    return ip;
+}
+functie int fcl_gl ( int a){
+    return a;
+}
+principal:{
+    eval int : 2 + 3 + 4; 
+    eval int : 1 + 1;
+    a1<-10;
+        c1<-0.01;
+    a2<-90;
+    while(a1 < a2){
+        eval int : 90 - 10 ;
+        }
+    if( a1 < a2){
+        eval int : 1 + 1 ;
+        if( a < 5 + 5 )
+        {
+    }
+    else{}
+    }
+    eval int : a1 * 10 - -a1;
+    for ( x5 <- x3 : +x5 : 20 )
+    {
+    }
+    a1<-lung("ceva");
+}
+stop
+
+
+
+
